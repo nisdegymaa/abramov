@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    double x,y;
+    double x, y;
     cin >> x >> y;
 
     cout.setf(ios::fixed|ios::showpoint);
