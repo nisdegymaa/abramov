@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    double x;
+    int x;
     cin >> x;
 
     if(x % 2 == 0) printf("EVEN");
@@ -12,6 +12,5 @@ int main() {
 
     cout.setf(ios::fixed|ios::showpoint);
     cout.precision(1);
-
     return 0;
 }   
