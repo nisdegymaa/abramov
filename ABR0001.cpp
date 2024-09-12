@@ -6,6 +6,7 @@ int main() {
   double a, b;
   cin >> a >> b;
 
+  //Таслалаас хойш оронгийн нарийвчлалыг гаргана.
   cout.setf(ios::fixed|ios::showpoint);
   cout.precision(1);
 

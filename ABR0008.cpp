@@ -3,15 +3,13 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
     double r, n;
     cin >> r >> n;
 
-    if(n > 2)
-
-    cout.setf(ios::fixed|ios::showpoint);
+    cout.setf(ios::fixed | ios::showpoint);
     cout.precision(1);
-
-    cout << n * (2 * n * sin(3.14 / n));
+    cout << n * sqrt(2 * r * r - 2 * r * r * cos(2 * 3.14 / n));
     return 0;
-} 
+}
